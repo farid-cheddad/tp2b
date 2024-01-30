@@ -23,5 +23,5 @@ public class Auteur {
     }
 
     public String toString() {
-        return "L'honorable" + nom;
+        return "L'honorable" + this.nom;
     }
