@@ -6,9 +6,9 @@ public class Auteur {
     private int qualitéComedie;
     private String citationDrame;
     private int qualitéDrame;
-}
 
-    public Auteur(String nom, String citationTragedie, int qualitéTragedie, String citationComedie, int qualitéComedie, String citationDrame, int qualitéDrame) {
+
+    public Auteur(String nom, int qualitéTragedie, String citationTragedie, int qualitéComedie, String citationComedie, int qualitéDrame, String citationDrame) {
         this.nom = nom;
         this.qualitéTragedie = qualitéTragedie;
         this.citationTragedie = citationTragedie;
@@ -25,3 +25,4 @@ public class Auteur {
     public String toString() {
         return "L'honorable" + this.nom;
     }
+}
