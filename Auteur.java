@@ -22,4 +22,6 @@ public class Auteur {
         return this.qualitéTragedie;
     }
 
-    
+    public String toString() {
+        return "L'honorable" + nom;
+    }
