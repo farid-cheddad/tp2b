@@ -10,12 +10,12 @@ public class Auteur {
 
     public Auteur(String nom, String citationTragedie, int qualitéTragedie, String citationComedie, int qualitéComedie, String citationDrame, int qualitéDrame) {
         this.nom = nom;
-        this.citationTragedie = citationTragedie;
         this.qualitéTragedie = qualitéTragedie;
-        this.citationComedie = citationComedie;
+        this.citationTragedie = citationTragedie;
         this.qualitéComedie = qualitéComedie;
-        this.citationDrame = citationDrame;
+        this.citationComedie = citationComedie;
         this.qualitéDrame = qualitéDrame;
+        this.citationDrame = citationDrame;
     }
 
     public int getQualitéTragedie() {
